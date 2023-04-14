@@ -1,0 +1,67 @@
+.Student-main {
+  display: flex;
+  align-items: start;
+  width: 1440px;
+  justify-content: none;
+  background: #E5E5E5;
+}
+
+.Student-box {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin: 0px auto;
+  background: #fff;
+}
+
+tr {
+  background: #FFFFFF;
+  border-radius: 8px;
+  color: #000;
+  padding: 15px;
+}
+
+th {
+  /* width: 100%; */
+  padding: 20px;
+  background-color: #E5E5E5;
+  margin-left: -50px;
+}
+
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+.td-img {
+  background: #C4C4C4;
+  border-radius: 8px;
+}
+
+.custom-btn {
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+}
+.custom-btn .bx-trash-alt {
+  font-size: 19px;
+  color: #FEAF00;
+}
+
+.delete-btn {
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+}
+.delete-btn .bx-pencil {
+  font-size: 20px;
+  color: #FEAF00;
+}/*# sourceMappingURL=index.css.map */

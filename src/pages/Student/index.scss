@@ -1,0 +1,140 @@
+.Student-main{
+    display: flex;
+    align-items: start;
+    width: 1440px;
+    justify-content:none;
+    background:  #F8F8F8;
+}
+
+.Student-box{
+    width: 100%;
+}
+
+
+table{
+    width: 100%;
+    margin: 0px auto;
+    background: 
+    #F8F8F8;
+    border-collapse: collapse;
+}
+
+
+tr{
+    background: #FFFFFF;
+    height: 85px;
+    color: #000;
+    padding: 15px;
+    border: 10px solid 
+    #F8F8F8;
+    border-radius: 8px !important;
+}
+
+th{
+    padding: 20px;
+    background-color:  #F8F8F8;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ACACAC;
+}
+
+td{
+    text-align: center;
+}
+
+.td-img{
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+.custom-btn{
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    background:transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+    .bx-trash-alt{
+        font-size: 19px;
+        color: #FEAF00;
+    }
+}
+
+.delete-btn{
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    background:transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+    .bx-pencil{
+        font-size: 20px;
+        color: #FEAF00;
+    }
+}
+
+.student__wrapper--box{
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+    
+    &-title{
+        margin-right: 60%;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+    }
+    
+    &-btns{
+        width: 13px;
+        height: 35px;
+        margin-right: 30px;
+        
+        &-top{
+            border: none;
+            background-color: transparent;
+            width: 7px;
+            height: 10px;
+            color: #FEAF00;
+            padding: 0;
+            cursor: pointer;
+            
+            &:active{
+                color: #000;
+            }
+        }
+        
+        &-buttom{
+            border: none;
+            background-color: transparent;
+            width: 7px;
+            height: 10px;
+            color: #FEAF00;
+            padding: 0;
+            cursor: pointer;
+            
+            &:active{
+                color: #000;
+            }
+        }
+    }
+    
+    &-btn{
+        background: #FEAF00;
+        border-radius: 4px;
+        width: 199px;
+        height: 44px;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        cursor: pointer;
+    }
+}

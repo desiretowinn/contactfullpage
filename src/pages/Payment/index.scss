@@ -1,0 +1,58 @@
+.Payment-main{
+    display: flex;
+
+    .Payment-box{
+        width: 100%;
+    }
+}
+
+.payment__wrapper--box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F8F8F8;
+padding: 10px 30px;
+}
+
+.payment__wrapper--box-btns{
+    width: 13px;
+    height: 45px;
+    margin-right: 30px;
+    
+    &-top{
+        border: none;
+        background-color: transparent;
+        width: 9px;
+        height: 8px;
+        color: #FEAF00;
+        padding: 0;
+        cursor: pointer;
+        font-size: 20px;
+        
+        &:active{
+            color: #000;
+        }
+    }
+    
+    &-buttom{
+        border: none;
+        background-color: transparent;
+        width: 9px;
+        height: 8px;
+        color: #FEAF00;
+        padding: 0;
+        cursor: pointer;
+        font-size: 20px;
+
+        
+        &:active{
+            color: #000;
+        }
+    }
+}
+
+
+.bx-low-vision{
+    font-size: 20px;
+    color: #FEAF00;
+}

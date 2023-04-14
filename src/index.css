@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 20px 30px;
+}
+
+.active{
+  background: #FEAF00;
+  border-radius: 4px;
+}
